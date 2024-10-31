@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+body {
+  font-size: 2rem;
+  font-family: sans-serif;
+  margin: 3.2rem;
+}
+
+table {
+  border-spacing: 0;
+  text-align: left;
+}
+
+table td,
+table th {
+  padding: 0.8rem 1.6rem;
+}
+
+table tr:nth-child(even) {
+  background-color: ghostwhite;
+}
+
+h2,
+p {
+  margin-left: 1.6rem;
+}
+
+h2 {
+  border-top: 6px solid ghostwhite;
+  padding-top: 1.6rem;
+}
+
+div {
+  border-top: 3px solid ghostwhite;
+}
